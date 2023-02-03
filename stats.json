@@ -1,0 +1,74 @@
+
+> webpack2@1.0.0 build
+> webpack
+
+@babel/preset-env: `DEBUG` option
+
+Using targets:
+{
+  "android": "108",
+  "chrome": "107",
+  "edge": "107",
+  "firefox": "102",
+  "ios": "14.5",
+  "opera": "93",
+  "safari": "15.6",
+  "samsung": "18"
+}
+
+Using modules transform: auto
+
+Using plugins:
+  proposal-class-static-block { ios, safari }
+  proposal-private-property-in-object { ios < 15 }
+  proposal-class-properties { ios < 15 }
+  proposal-private-methods { ios < 15 }
+  syntax-numeric-separator
+  syntax-nullish-coalescing-operator
+  syntax-optional-chaining
+  syntax-json-strings
+  syntax-optional-catch-binding
+  transform-parameters { ios, safari }
+  syntax-async-generators
+  syntax-object-rest-spread
+  proposal-export-namespace-from { ios, safari }
+  syntax-dynamic-import
+  syntax-top-level-await
+corejs3: `DEBUG` option
+
+Using targets: {
+  "android": "108",
+  "chrome": "107",
+  "edge": "107",
+  "firefox": "102",
+  "ios": "14.5",
+  "opera": "93",
+  "safari": "15.6",
+  "samsung": "18"
+}
+
+Using polyfills with `usage-global` method:
+
+[C:\Users\user\Desktop\front-end\webpack2\src\index.js]
+Based on your code and targets, the corejs3 polyfill did not add any polyfill.
+
+[C:\Users\user\Desktop\front-end\webpack2\src\fetchQuote.js]
+Based on your code and targets, the corejs3 polyfill did not add any polyfill.
+assets by status 907 KiB [1m[32m[cached][39m[22m 1 asset
+asset [1m[32mwise.png[39m[22m 205 KiB [1m[33m[compared for emit][39m[22m [from: src/assets/wise.png] (auxiliary name: bundle)
+asset [1m[32mindex.html[39m[22m 583 bytes [1m[33m[compared for emit][39m[22m
+orphan modules 16.8 KiB [1m[33m[orphan][39m[22m 12 modules
+runtime modules 2.2 KiB 8 modules
+modules by path [1m./node_modules/core-js/[39m[22m 107 KiB 145 modules
+modules by path [1m./node_modules/axios/lib/[39m[22m 85.5 KiB 40 modules
+modules by path [1m./node_modules/uuid/dist/esm-browser/*.js[39m[22m 3.33 KiB 6 modules
+modules by path [1m./node_modules/style-loader/dist/runtime/*.js[39m[22m 5.75 KiB
+  [1m./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js[39m[22m 2.44 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  + 5 modules
+modules by path [1m./src/[39m[22m 6.26 KiB (javascript) 205 KiB (asset) 5 modules
+modules by path [1m./node_modules/css-loader/dist/runtime/*.js[39m[22m 2.74 KiB
+  [1m./node_modules/css-loader/dist/runtime/sourceMaps.js[39m[22m 505 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1m./node_modules/css-loader/dist/runtime/api.js[39m[22m 2.25 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[1m./node_modules/lodash/lodash.js[39m[22m 531 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[1m./node_modules/regenerator-runtime/runtime.js[39m[22m 24.6 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.75.0 compiled [1m[32msuccessfully[39m[22m in 2010 ms
